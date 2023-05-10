@@ -1,11 +1,11 @@
 name: Minion
-version: 2.0.0
+version: 3.0.0
 api: 4.0.0
 main: CLADevs\Minion\Loader
 author: CLADevs
-depend:
+softdepend:
   - EconomyAPI
-
+  - BedrockEconomy
 commands:
   minion:
     permission: "minion.commands"
